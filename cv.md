@@ -26,6 +26,6 @@ Taught html and css from youtube video tutorials
 
 ### Language:
 * English - Elementary
-* Ukraine - Proficiency
+* Ukrainian - Proficiency
 
 
