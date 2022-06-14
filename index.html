@@ -1,1 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>CV - Irina Abrasimova</title>
+        <link rel="stylesheet" href="./src/styles/style.css" />
+        <link rel="stylesheet" href="./src/styles/reset_style.css" />
+        <link rel="stylesheet" href="./src/styles/global_styles.css" />
+        <link rel="stylesheet" href="./src/styles/variables.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,400;1,500&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <div class="wrapper">
+            <header class="header">
+                <nav class="navigation">
+                    <ul class="menu">
+                        <li class="menu_item"><a href="#aboutme">About me</a></li>
+                        <li class="menu_item"><a href="#expirience">Expirience</a></li>
+                        <li class="menu_item"><a href="#languages">Languages</a></li>
+                        <li class="menu_item"><a href="#hobbies">Hobbies</a></li>
+                        <li class="menu_item"><a href="#code">Code Example</a></li>
+                    </ul>
+                </nav>
+            </header>
 
+            <main class="root">
+                <aside class="sidebar">
+                    <img class="photo" src="/src/assets/images/IMG-2175.jpg" alt="myp hoto" />
+                    <div class="sidebar_separator"></div>
+                    <section class="education">
+                        <h2 class="education_heading">Education</h2>
+                        <ul class="education_list">
+                            <li class="educalion_item education_item--school">school№168</li>
+                            <li class="educalion_item educalion_item--university">
+                                Bogomolets National Medical University Faculty of Stomatology
+                            </li>
+                        </ul>
+                    </section>
+                    <div class="sidebar_separator"></div>
+                    <section class="contacts">
+                        <h2 class="contacts_heading">Contacts</h2>
+                        <ul>
+                            <li class="contacts_item contacts_item--mail">
+                                <span class="contact_item--bolt">Email</span>: eyrenabrasimova@gmail.com
+                            </li>
+                            <li class="contacts_item contacts_item--git">
+                                <span class="contact_item--bolt">GitHub</span>:eyreena
+                            </li>
+                            <li class="contacts_item contacts_item--location">
+                                <span class="contact_item--bolt">Location</span>: Ukraine, Kiev
+                            </li>
+                        </ul>
+                    </section>
+                    <div class="sidebar_separator"></div>
+                    <section class="skills">
+                        <h2 class="skills_heading">Skills</h2>
+
+                        <div class="skills_points">
+                            <span class="skills_text">HTML5</span>
+                            <ul class="skills_list">
+                                <li class="skills_dot skills_dot--enabled"></li>
+                                <li class="skills_dot"></li>
+                                <li class="skills_dot"></li>
+                                <li class="skills_dot"></li>
+                                <li class="skills_dot"></li>
+                            </ul>
+                        </div>
+                        <div class="skills_points">
+                            <span class="skills_text">CSS</span>
+                            <ul class="skills_list">
+                                <li class="skills_dot skills_dot--enabled"></li>
+                                <li class="skills_dot"></li>
+                                <li class="skills_dot"></li>
+                                <li class="skills_dot"></li>
+                                <li class="skills_dot"></li>
+                            </ul>
+                        </div>
+                        <div class="skills_points">
+                            <span class="skills_text">Git&GitHub</span>
+                            <ul class="skills_list">
+                                <li class="skills_dot skills_dot--enabled"></li>
+                                <li class="skills_dot"></li>
+                                <li class="skills_dot"></li>
+                                <li class="skills_dot"></li>
+                                <li class="skills_dot"></li>
+                            </ul>
+                        </div>
+                    </section>
+                    <div class="sidebar_separator"></div>
+                </aside>
+                <article class="information">
+                    <h1 class="information_title">Abrasimova Iryna</h1>
+                    <section class="information_block">
+                        <h2 class="information_header" id="aboutme">About me</h2>
+                        <p class="information_block--text">
+                            Hello, my name is Irina and I want to become a front end web developer.
+                        </p>
+                    </section>
+                    <section class="information_block">
+                        <h2 class="information_header" id="expirience">Experience</h2>
+                        <p class="information_block--text">
+                            I have no experience in IT, I just started to study this area using video guides and learned
+                            about Rolling Scopes School Logo
+                        </p>
+                    </section>
+                    <section class="information_block">
+                        <h2 class="information_header" id="hobbies">Hobbies</h2>
+                        <p class="information_block--text">
+                            My hobbies are cross stitch and beadwork. I knit toys to order, opened an online store. I
+                            love handicrafts. I also like to read the classics. I also like to visit theaters and
+                            cinemas. Spend time with family.
+                        </p>
+                    </section>
+                    <section class="information_languages">
+                        <h2 class="information_header" id="languages">Languages</h2>
+                        <ul class="information_languages--text">
+                            <li>Ukrainian - Proficiency</li>
+                            <li>English  - Elementary</li>
+                        </ul>
+                    </section>
+                    <section class="information_code">
+                        <h2 class="information_header" id="code">CODE EXAMPLE</h2>
+                        <p class="information_code--text">
+                            <pre class="code_block">
+                                <code class="code_block--inner">
+    areYouPlayingBanjo(name) {
+    const isPlayingBanjo = name[0] === 'R' || name[0] === 'r';
+    return isPlayingBanjo ? `${name} plays banjo` : `${name} does not play banjo`;
+    }
+                                </code>
+                            </pre>
+                        </p>
+                    </section>
+                </article>
+            </main>
+
+            <footer class="footer">
+                <section class="footer_logo"> <img src="./src/assets/icons/rs_school_js.svg" alt=" rs_school_logo"></section>
+                <section class="footer_logo--git"><a href="https://github.com/eYreena"> <img src="/src/assets/icons/github.svg" alt=" rs_school_logo--git"></a></section>
+                <section class="footer_link"> <a href="https://rs.school/js/">2022 RS_SCHOOL</a></section>
+            </footer>
+        </div>
+    </body>
+</html>
