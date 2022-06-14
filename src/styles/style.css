@@ -1,0 +1,284 @@
+.wrapper {
+    color: var(--text-color);
+
+    max-width: 1400px;
+
+    margin: auto;
+}
+.header {
+    box-shadow: 6px -3px 14px -3px #000000;
+    position: sticky;
+    top: 0;
+    background-color: var(--secondary-color);
+}
+.navigation {
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: "Playfair Display", serif;
+}
+.menu_item {
+    font-size: 25px;
+    text-align: center;
+    list-style-type: none;
+    padding: 10px 20px;
+}
+
+.menu_item a {
+    text-decoration: none;
+    background-image: linear-gradient(to right, #54b3d6, #54b3d6 50%, #000 50%);
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+.menu_item a:before {
+    content: "";
+    background: #54b3d6;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+}
+
+.menu_item a:hover {
+    background-position: 0;
+}
+
+.menu_item a:hover::before {
+    width: 100%;
+}
+
+.root {
+    width: 100%;
+    height: 1400px;
+    display: flex;
+}
+
+.sidebar {
+    width: 30%;
+    height: 100%;
+    background-color: var(--additional-color);
+    padding: 30px;
+    border-right: 1px solid var(--primary-color);
+}
+
+.photo {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.information {
+    width: 70%;
+    height: 100%;
+    background-color: var(--additional-color);
+}
+
+.sidebar_separator {
+    width: 100%;
+    height: 1px;
+    background-color: var(--primary-color);
+    margin: 20px 0;
+}
+
+.education {
+}
+.education_heading {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.education_list {
+    padding-left: 30px;
+    font-size: 30px;
+    text-decoration: double;
+}
+.educalion_item {
+    font-size: 20px;
+    list-style: circle;
+    margin: 10px 0;
+}
+
+.educalion_item::marker {
+    color: var(--primary-color);
+}
+
+.education_item--school {
+}
+
+.educalion_item--university {
+}
+
+.contacts {
+}
+.contacts_heading {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.contacts_item {
+    position: relative;
+    padding-left: 50px;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.contacts_item::before {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+    display: block;
+    content: "";
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.contacts_item--mail::before {
+    background-image: url(/src/assets/icons/email.svg);
+}
+
+.contact_item--bolt {
+    font-weight: 700;
+}
+
+.contacts_item--git::before {
+    background-image: url(/src/assets/icons/github.svg);
+}
+
+.contacts_item--location::before {
+    background-image: url(/src/assets/icons/map.svg);
+}
+
+.skills {
+}
+
+.skills_heading {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.skills_points {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 0;
+    justify-content: space-between;
+}
+
+.skills_text {
+    font-size: 20px;
+    margin-right: 20px;
+    font-weight: 700;
+}
+
+.skills_list {
+    display: flex;
+    align-items: center;
+}
+
+.skills_dot {
+    background-color: var(--secondary-color);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 10px;
+    flex-direction: row;
+}
+
+.skills_dot--enabled {
+    background-color: var(--primary-color);
+}
+
+.information_title {
+    background-color: var(--additional-color);
+    font-size: 70px;
+    text-align: left;
+    margin: 50px;
+}
+
+.information_block {
+    margin: 40px;
+}
+
+.information_header {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.information_block--text {
+    font-size: 20px;
+}
+
+.information_languages {
+    margin: 40px;
+}
+
+.information_languages--text {
+    font-size: 20px;
+    list-style: circle;
+    margin: 10px 0;
+    padding-left: 30px;
+}
+
+.information_languages--text > li {
+    list-style: circle;
+}
+
+.information_languages--text > li::marker {
+    color: var(--primary-color);
+}
+
+.information_code {
+    margin: 40px;
+}
+
+.information_code--text {
+    font-size: 40px;
+}
+
+.code_block {
+    background-color: var(--primary-color);
+}
+
+.code_block--inner {
+    font-size: 23px;
+}
+
+.footer {
+    background-color: var(--secondary-color);
+    text-align: center;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer_logo {
+    width: 200px;
+}
+
+.footer_logo--git {
+    width: 70px;
+}
+
+.footer_link {
+}
+
+.footer_link a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 40px;
+}
