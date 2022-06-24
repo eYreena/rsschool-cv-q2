@@ -1,0 +1,10 @@
+:root {
+    --text-color: #f2785c;
+    --pimary-color: #0d606f;
+    --secondary-color: #ffffff;
+    --cursor-color: #0c4650;
+    /*  */
+    --primary-text-font: "Aleo", serif;
+    --secondary-text-font: "Red Hat Text", sans-serif;
+    --third-text-font: "Magra", sans-serif;
+}
