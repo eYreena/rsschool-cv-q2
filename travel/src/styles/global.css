@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    max-width: 1440px;
+
+    margin: auto;
+}
+
+li {
+    list-style: none;
+}
+
+* {
+    box-sizing: border-box;
+}
