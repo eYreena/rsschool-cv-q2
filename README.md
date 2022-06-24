@@ -1,5 +1,7 @@
 # rsschool-cv
 
-https://eyreena.github.io/rsschool-cv/cv
+My first project
 
-https://eyreena.github.io/rsschool-cv/
+https://eYreena.github.io/rsschool-cv/cv
+
+https://eYreena.github.io/rsschool-cv/

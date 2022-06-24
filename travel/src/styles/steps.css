@@ -1,0 +1,40 @@
+.steps {
+    background-color: var(--secondary-color);
+    width: 100%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 80px 130px;
+}
+
+.steps_text {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 53px;
+    font-family: var(--secondary-text-font);
+    color: var(--text-color);
+    justify-content: center;
+}
+
+.steps_block {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.steps_item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 0 131px;
+}
+
+.steps_icon {
+}
+
+.steps_icon-text {
+    font-family: var(--primary-text-font);
+    font-size: 20px;
+    color: var(--pimary-color);
+}
